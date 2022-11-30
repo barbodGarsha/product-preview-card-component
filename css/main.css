@@ -27,4 +27,117 @@ li {
   margin: 0;
   padding: 0;
 }
+
+.test-container {
+  height: 100vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.card {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 33%;
+  border-radius: 15px;
+  overflow: hidden;
+}
+
+.card .card__box {
+  background-color: white;
+  -webkit-box-flex: 1;
+      -ms-flex: 1;
+          flex: 1;
+}
+
+.card .card__box .card__box__container {
+  padding: 2rem;
+}
+
+.card .card__img {
+  width: 100%;
+}
+
+.card .card__product-type {
+  color: #6c7289;
+  text-transform: uppercase;
+  letter-spacing: .2rem;
+  margin-bottom: 1rem;
+  font-size: .7rem;
+  font-weight: 500;
+}
+
+.card .card__product-name {
+  line-height: 1.9rem;
+  margin-bottom: 1rem;
+  font-size: 2rem;
+  font-family: "Montserrat";
+  font-weight: 700;
+}
+
+.card .card__product-disc {
+  color: #6c7289;
+  line-height: 1.25rem;
+  margin-bottom: 1.5rem;
+}
+
+.card .card__price-container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-item-align: center;
+      align-self: center;
+  margin-bottom: 1.5rem;
+}
+
+.card .card__price {
+  color: #3c8067;
+  margin-right: .8rem;
+  font-size: 2rem;
+  font-family: "Montserrat";
+  font-weight: 700;
+}
+
+.card .card__pre-price {
+  color: #6c7289;
+  text-decoration: line-through;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.card .card__btn {
+  border: none;
+  border-radius: 8px;
+  background-color: #3c8067;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 100%;
+  padding: .8rem;
+}
+
+.card .card__btn .card__btn__icon {
+  margin-right: .7rem;
+}
+
+.card .card__btn .card__btn__txt {
+  color: white;
+}
 /*# sourceMappingURL=main.css.map */
