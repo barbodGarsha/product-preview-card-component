@@ -152,3 +152,17 @@ li {
     }
 }
 
+
+@media screen and (max-width: 570px){
+
+    .card {
+        flex-direction: column;
+        
+        width: 90%;
+
+        .card__img {
+          content: url("../images/image-product-mobile.jpg");
+        }
+    
+    }
+}

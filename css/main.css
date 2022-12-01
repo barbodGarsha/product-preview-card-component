@@ -141,4 +141,17 @@ li {
 .card .card__btn .card__btn__txt {
   color: white;
 }
+
+@media screen and (max-width: 570px) {
+  .card {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    width: 90%;
+  }
+  .card .card__img {
+    content: url("../images/image-product-mobile.jpg");
+  }
+}
 /*# sourceMappingURL=main.css.map */
