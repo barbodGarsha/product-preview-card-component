@@ -1,5 +1,6 @@
 @import url('https://fonts.google.com/specimen/Montserrat');
-@import url('https://fonts.google.com/specimen/Fraunces');
+@import url('https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,500;9..144,700&display=swap');
+
 
 
 $c-primary: hsl(158, 36%, 37%);
@@ -115,7 +116,7 @@ li {
         margin-right: .8rem;
 
         font-size: 2rem;
-        font-family: "Montserrat";
+        font-family: "Fraunces";
         font-weight: 700;
 
     }
