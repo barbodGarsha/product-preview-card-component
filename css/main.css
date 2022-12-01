@@ -118,6 +118,7 @@ li {
 }
 
 .card .card__btn {
+  cursor: pointer;
   border: none;
   border-radius: 8px;
   background-color: #3c8067;
@@ -140,6 +141,10 @@ li {
 
 .card .card__btn .card__btn__txt {
   color: white;
+}
+
+.card .card__btn:hover {
+  background-color: #2c5e4b;
 }
 
 @media screen and (max-width: 570px) {

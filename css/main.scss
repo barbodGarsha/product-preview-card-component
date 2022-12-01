@@ -132,6 +132,7 @@ li {
     }
 
     .card__btn {
+        cursor: pointer;
         border: none;
         border-radius: 8px;
 
@@ -149,6 +150,10 @@ li {
         .card__btn__txt {
             color: $c-neutral-var-02;
         }
+    }
+
+    .card__btn:hover {
+        background-color: darken($c-primary, $amount: 10%);
     }
 }
 
