@@ -41,5 +41,5 @@ Users should be able to:
 
 ## Author
 
-- Website - [Barbodgarsha.com](barbodgarsha.com)
+- Website - [Barbodgarsha.com](https://barbodgarsha.com)
 - Frontend Mentor - [@barbodGarsha](https://www.frontendmentor.io/profile/barbodGarsha)
