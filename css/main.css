@@ -122,6 +122,7 @@ li {
   border: none;
   border-radius: 8px;
   background-color: #3c8067;
+  color: white;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -137,10 +138,6 @@ li {
 
 .card .card__btn .card__btn__icon {
   margin-right: .7rem;
-}
-
-.card .card__btn .card__btn__txt {
-  color: white;
 }
 
 .card .card__btn:active {

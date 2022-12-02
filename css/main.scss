@@ -137,6 +137,7 @@ li {
         border-radius: 8px;
 
         background-color: $c-primary;
+        color: $c-neutral-var-02;
         display: flex;
         justify-content: center;
         align-items: center;
@@ -147,9 +148,6 @@ li {
             margin-right: .7rem;
         }
 
-        .card__btn__txt {
-            color: $c-neutral-var-02;
-        }
     }
 
     .card__btn:active {
