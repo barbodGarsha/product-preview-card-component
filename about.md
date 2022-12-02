@@ -37,7 +37,7 @@ Users should be able to:
 - HTML
 - SCSS
 - Flexbox
-- [BEM](https://getbem.com) - BEM
+- [BEM](https://getbem.com)
 
 ## Author
 
