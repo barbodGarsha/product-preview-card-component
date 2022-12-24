@@ -41,5 +41,4 @@ Users should be able to:
 
 ## Author
 
-- Website - [Barbodgarsha.com](http://barbodgarsha.com)
 - Frontend Mentor - [@barbodGarsha](https://www.frontendmentor.io/profile/barbodGarsha)
